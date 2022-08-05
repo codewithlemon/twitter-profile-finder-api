@@ -33,7 +33,7 @@ app.get("/profile/by-id/:userId", async (req, res) => {
   if (data.data) {
     res.json({
       message: "User found",
-      user: data,
+      user: data.data,
     })
   } else {
     res.json({
@@ -64,7 +64,7 @@ app.get("/profile/by-username/:username", async (req, res) => {
   if (data.data) {
     res.json({
       message: "User found",
-      user: data,
+      user: data.data,
     })
   } else {
     res.json({
