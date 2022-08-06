@@ -1,4 +1,4 @@
-# Twitter User Profile Finder
+# Twitter Profile Finder (search API)
 
 This is a REST API that gets user profiles by their Twitter ID or username.
 
@@ -13,8 +13,8 @@ The project is based on Node.js and the Express framework.
 To setup this project, enter the following commands:
 
 ```sh
-git clone https://github.com/codewithlemon/twitter-user-profile-finder
-cd twitter-user-profile-finder
+git clone https://github.com/codewithlemon/twitter-profile-finder-api
+cd twitter-profile-finder-api
 npm install
 ```
 
